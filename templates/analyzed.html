@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analyzed Text</title>
+</head>
+<body>
+<a href="http://127.0.0.1:8000">HOME</a>
+<h1>You Choose The Option - {{ final_response }}</h1>
+{% for i in {{ final_response }} %}
+    <p> {{ i }}</p>
+{% endfor %}
+</body>
+</html>
